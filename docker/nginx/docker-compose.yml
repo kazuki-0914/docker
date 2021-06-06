@@ -1,0 +1,11 @@
+# sample nginx
+sample-nginx:
+    image: custom-nginx
+    ports: 
+        - "8081:80"
+
+# vue nginx
+vue-nginx:
+    image: hellovue-nginx
+    ports: 
+        - "8082:80"
